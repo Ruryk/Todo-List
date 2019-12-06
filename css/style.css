@@ -1,0 +1,68 @@
+body {
+	background-color: #2DA4E1;
+	padding: 50px;
+	text-align: center;
+	font-size: 18px;
+}
+h1 {
+	margin: 0 auto;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+.yellowText {
+	color: yellow;
+}
+#input {
+	width: 400px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 10px;
+	border: none; 
+	margin-bottom: 20px;
+}
+#out {
+	position: relative;
+	display: inline-block;
+	width: 500px;
+}
+#submit {
+	background-image: url('../img/icon.png');
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 17px;
+	margin-left: 10px;
+	background-color: #F0F0F0 ;
+}
+.addP {
+    display: inline-block;
+	border: 1px solid black;
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-color:#3AE2CE ;
+	border-radius: 30px;
+	padding: 10px 20px 10px 20px;
+	text-align: left;
+}
+.addP_change {
+	display: inline-block;
+	border: 3px solid red;
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-color:#14FF5B ;
+	border-radius: 30px;
+	padding: 10px 20px 10px 20px;
+	text-align: left;
+}
+.del {
+	margin-left: 10px;
+	background-color: red;
+	color: white;
+	border: 1px solid black;
+}
